@@ -4376,6 +4376,7 @@
                       "type": "linear"
                     },
                     "showPoints": "never",
+                    "showValues": false,
                     "spanNulls": false,
                     "stacking": {
                       "group": "A",
@@ -4390,7 +4391,8 @@
                     "mode": "absolute",
                     "steps": [
                       {
-                        "color": "green"
+                        "color": "green",
+                        "value": 0
                       }
                     ]
                   },
@@ -4453,6 +4455,10 @@
                 ]
               },
               "options": {
+                "annotations": {
+                  "clustering": -1,
+                  "multiLane": false
+                },
                 "legend": {
                   "calcs": [
                     "min",
@@ -4460,6 +4466,7 @@
                     "max"
                   ],
                   "displayMode": "table",
+                  "enableFacetedFilter": false,
                   "placement": "bottom",
                   "showLegend": true
                 },
@@ -4470,7 +4477,7 @@
                 }
               }
             },
-            "version": "11.6.1"
+            "version": "13.1.0-27412447110"
           }
         }
       },
@@ -5300,7 +5307,8 @@
                     "mode": "absolute",
                     "steps": [
                       {
-                        "color": "green"
+                        "color": "green",
+                        "value": 0
                       },
                       {
                         "color": "dark-red",
@@ -5341,7 +5349,7 @@
                 "valueMode": "color"
               }
             },
-            "version": "11.6.1"
+            "version": "13.1.0-27412447110"
           }
         }
       },
@@ -11651,6 +11659,7 @@
                       "type": "linear"
                     },
                     "showPoints": "never",
+                    "showValues": false,
                     "spanNulls": false,
                     "stacking": {
                       "group": "A",
@@ -11664,7 +11673,8 @@
                     "mode": "absolute",
                     "steps": [
                       {
-                        "color": "green"
+                        "color": "green",
+                        "value": 0
                       }
                     ]
                   },
@@ -11673,6 +11683,10 @@
                 "overrides": []
               },
               "options": {
+                "annotations": {
+                  "clustering": -1,
+                  "multiLane": false
+                },
                 "legend": {
                   "calcs": [
                     "min",
@@ -11680,6 +11694,7 @@
                     "max"
                   ],
                   "displayMode": "table",
+                  "enableFacetedFilter": false,
                   "placement": "bottom",
                   "showLegend": true
                 },
@@ -11690,7 +11705,7 @@
                 }
               }
             },
-            "version": "11.6.1"
+            "version": "13.1.0-27412447110"
           }
         }
       },
@@ -16081,6 +16096,7 @@
                       "type": "linear"
                     },
                     "showPoints": "never",
+                    "showValues": false,
                     "spanNulls": false,
                     "stacking": {
                       "group": "A",
@@ -16094,7 +16110,8 @@
                     "mode": "absolute",
                     "steps": [
                       {
-                        "color": "green"
+                        "color": "green",
+                        "value": 0
                       },
                       {
                         "color": "red",
@@ -16107,6 +16124,10 @@
                 "overrides": []
               },
               "options": {
+                "annotations": {
+                  "clustering": -1,
+                  "multiLane": false
+                },
                 "legend": {
                   "calcs": [
                     "min",
@@ -16114,6 +16135,7 @@
                     "max"
                   ],
                   "displayMode": "table",
+                  "enableFacetedFilter": false,
                   "placement": "bottom",
                   "showLegend": true
                 },
@@ -16124,7 +16146,7 @@
                 }
               }
             },
-            "version": "11.6.1"
+            "version": "13.1.0-27412447110"
           }
         }
       },
@@ -17755,6 +17777,7 @@
                       "type": "linear"
                     },
                     "showPoints": "never",
+                    "showValues": false,
                     "spanNulls": false,
                     "stacking": {
                       "group": "A",
@@ -17769,7 +17792,8 @@
                     "mode": "absolute",
                     "steps": [
                       {
-                        "color": "green"
+                        "color": "green",
+                        "value": 0
                       }
                     ]
                   },
@@ -17832,6 +17856,10 @@
                 ]
               },
               "options": {
+                "annotations": {
+                  "clustering": -1,
+                  "multiLane": false
+                },
                 "legend": {
                   "calcs": [
                     "min",
@@ -17839,6 +17867,7 @@
                     "max"
                   ],
                   "displayMode": "table",
+                  "enableFacetedFilter": false,
                   "placement": "bottom",
                   "showLegend": true
                 },
@@ -17849,7 +17878,7 @@
                 }
               }
             },
-            "version": "11.6.1"
+            "version": "13.1.0-27412447110"
           }
         }
       },
@@ -21831,7 +21860,7 @@
           {
             "kind": "RowsLayoutRow",
             "spec": {
-              "collapse": true,
+              "collapse": false,
               "layout": {
                 "kind": "GridLayout",
                 "spec": {
@@ -21880,10 +21909,10 @@
                       "spec": {
                         "element": {
                           "kind": "ElementReference",
-                          "name": "panel-64"
+                          "name": "panel-157"
                         },
                         "height": 10,
-                        "width": 10,
+                        "width": 4,
                         "x": 10,
                         "y": 10
                       }
@@ -21893,12 +21922,12 @@
                       "spec": {
                         "element": {
                           "kind": "ElementReference",
-                          "name": "panel-157"
+                          "name": "panel-64"
                         },
                         "height": 10,
-                        "width": 4,
-                        "x": 20,
-                        "y": 10
+                        "width": 10,
+                        "x": 0,
+                        "y": 20
                       }
                     }
                   ]
@@ -21911,6 +21940,18 @@
       }
     },
     "links": [
+      {
+        "asDropdown": false,
+        "icon": "external link",
+        "includeVars": false,
+        "keepTime": false,
+        "tags": [],
+        "targetBlank": true,
+        "title": "Source (GitHub)",
+        "tooltip": "View source file in repository",
+        "type": "link",
+        "url": "https://github.com/marcusbb/pressreader-gitsync/blob/main/infra/node-exporter-full.json"
+      },
       {
         "asDropdown": false,
         "icon": "external link",
