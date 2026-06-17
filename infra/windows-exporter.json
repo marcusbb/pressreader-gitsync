@@ -2990,7 +2990,7 @@
             "spec": {
               "element": {
                 "kind": "ElementReference",
-                "name": "panel-27"
+                "name": "panel-7"
               },
               "height": 9,
               "width": 12,
@@ -3003,18 +3003,31 @@
             "spec": {
               "element": {
                 "kind": "ElementReference",
-                "name": "panel-7"
+                "name": "panel-27"
               },
               "height": 9,
               "width": 12,
-              "x": 12,
-              "y": 42
+              "x": 0,
+              "y": 51
             }
           }
         ]
       }
     },
-    "links": [],
+    "links": [
+      {
+        "asDropdown": false,
+        "icon": "external link",
+        "includeVars": false,
+        "keepTime": false,
+        "tags": [],
+        "targetBlank": true,
+        "title": "Source (GitHub)",
+        "tooltip": "View source file in repository",
+        "type": "link",
+        "url": "https://github.com/marcusbb/pressreader-gitsync/blob/main/infra/windows-exporter.json"
+      }
+    ],
     "liveNow": false,
     "preload": false,
     "tags": [],
